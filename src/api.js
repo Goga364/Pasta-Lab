@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const baseURL =
-  "https://cors-anywhere.herokuapp.com/https://api-eu.syrve.live/api/1";
+  "/proxy/api/1";
 
 const api = axios.create({ baseURL });
 
